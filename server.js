@@ -19,7 +19,14 @@ connectDB();
 app.use(express.json())
 app.use(morgan('dev'))
 
+
 //routes
+
+// Test route for server health
+app.get('/health', (req, res) => {
+    res.status(200).send('Server is up and running!');
+});
+
 app.use("/api/v1/user",require('./routes/userRoute'));
 app.use("/api/v1/admin",require('./routes/adminRoute'))
 app.use('/api/v1/doctor',require('./routes/doctorRoute'));
