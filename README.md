@@ -33,10 +33,7 @@ Ensure you have the following installed:
 
 3. Add a `.env` file in the root folder with the following content:
    ```env
-   PORT=8080
-   MODE=development
-   MONGO_URL=mongodb+srv://ayush21singla:8khwx4Z3UZmeb2cE@cluster0.rwhpi6a.mongodb.net/AppointMyDoctor
-   JSONWEBTOKEN=abcdexyz123456
+  (secrets of env file, will send you to mail)
    ```
 
 ### Running the Project
